@@ -1,0 +1,31 @@
+# ─────────────────────────────
+# 基本
+node_modules
+dist
+.DS_Store
+
+# ─────────────────────────────
+# Vite / 開発ビルド関連
+.vite
+*.local
+
+# ─────────────────────────────
+# TypeScript / IDE
+*.log
+*.lock
+*.tsbuildinfo
+.env
+.env.*
+.idea/
+.vscode/
+*.swp
+
+# ─────────────────────────────
+# OSごとの不要ファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ─────────────────────────────
+# テスト出力（今後Jestなど導入する場合）
+coverage
